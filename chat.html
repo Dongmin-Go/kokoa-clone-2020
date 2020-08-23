@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats w/billie - Kokoa Clone</title>
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body id="chat-screen">
+    <!-- status-bar -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>3:33</span>
+      </div>
+      <div class="status-bar__column">
+        <span>55%</span>
+        <i class="fas fa-battery-half fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <!-- header -->
+    <header class="alt__header">
+      <div class="alt__header__column">
+        <a href="chats.html"><i class="fas fa-chevron-left fa-lg"></i></a>
+      </div>
+      <div class="alt__header__column">
+        <h1 class="alt__header__title">동민</h1>
+      </div>
+      <div class="alt__header__column">
+        <a href="#"><i class="fas fa-search fa-lg"> </i></a>
+        <i class="fas fa-bars fa-lg"></i>
+      </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+        Tuesday, June 30, 2020
+      </div>
+
+      <div class="message__row">
+        <img
+          src="https://i.pinimg.com/originals/b5/fc/9f/b5fc9f8158095fc07079669ed4cb5dfb.jpg"
+        />
+        <div class="message__content">
+          <span class="message__author">Leo</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:11</span>
+          </div>
+        </div>
+      </div>
+      <div class="message__row message__row--own">
+        <div class="message__content">
+          <div class="message__info">
+            <span class="message__bubble">Nice to me you!</span>
+            <span class="message__time">21:11</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div id="no-computer">
+      <span>Your screen is too big!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/ef7d3ffe94.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

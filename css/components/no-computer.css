@@ -1,0 +1,18 @@
+#no-computer {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-color: yellow;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 645px) {
+  #no-computer {
+    display: none;
+  }
+}
